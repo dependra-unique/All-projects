@@ -1,0 +1,186 @@
+#Bg {
+    background-color: white;
+    Border: 2px Solid Whitesmoke;
+    Padding: 40px;
+    Position: absolute;
+    Margin-Left: 340px;
+    Margin-Top: 150px;
+    Height: 1200px;
+    Width: 780px;
+    Line-Height: 0px;
+}
+H1 {
+    Color: black;
+    Text-Align: Center;
+    Padding: 0px;
+    Font-Size: 30px;
+}
+#Form {
+    Background-Color: white;
+    Border: 2px Solid Black;
+    Padding: 40px;
+    Position: Absolute;
+    Margin-Left: Auto;
+    Margin-Right: Auto;
+    Margin-Top: 20px;
+    Height: 950px;
+    Width: 700px;
+    Line-Height: 0px;
+}
+#Table {
+    Height: 950px;
+    Width: 700px;
+    Text-Align: Justify;
+    Color: black;
+    Font-Weight: Bold;
+    Font-Style: Normal;
+    Font-Family: "Segoe UI", Tahoma, Geneva, Verdana, Sans-Serif;
+}
+Th {
+    Text-Align: Center;
+}
+Td {
+    Padding: 2px;
+    Justify-Content: Left;
+}
+Tr {
+    Padding: 30px;
+    Width: 200px;
+    Border-Collapse: Separate;
+    Text-Align: Left;
+}
+#Submit_p1 {
+    Text-Align: Center;
+    Font-Weight: Bolder;
+    Font-Size: Xx-Large;
+    Color: Lawngreen;
+}
+#Submit_p2 {
+    Text-Align: Center;
+    Font-Size: Xx-Large;
+    Font-Weight: Bold;
+    Color: Purple;
+}
+A {
+    Text-Align: Center;
+    Font-Size: Xx-Large;
+    Font-Weight: Bold;
+    Color: white;
+}
+Input,
+Select {
+    Color: #5a5854;
+    Background-Color: #F2f2f2;
+    Padding: 4px 4px 4px 2px;
+    Border-Radius: 10px;
+    Margin-Bottom: 1px;
+}
+Input:focus {
+    Background-Color: #Ffffff;
+    Border: 2px Solid #B1e1e4;
+    Border-Spacing: 2px 2px 2px 2px;
+}
+Input#Email {
+    Background-Image: Url("Images/User-Logo.Png");
+    Background-Repeat: No-Repeat;
+    Background-Position: 1px;
+    Background-Size: 35px 35px;
+    Padding: 4px;
+    Margin-Bottom: 10px;
+}
+Input#Twitter {
+    Background-Image: Url("");
+}
+#Bg {
+    Background-Color: white;
+    Border: 2px Solid Whitesmoke;
+    Padding: 40px;
+    Position: absolute;
+    Margin-Left: 340px;
+    Margin-Top: 150px;
+    Height: 1200px;
+    Width: 780px;
+    Line-Height: 0px;
+}
+H1 {
+    Color: black;
+    Text-Align: Center;
+    Padding: 0px;
+    Font-Size: 30px;
+}
+#Form {
+    Background-Color: white;
+    Border: 2px Solid Black;
+    Padding: 40px;
+    Position: Absolute;
+    Margin-Left: Auto;
+    Margin-Right: Auto;
+    Margin-Top: 20px;
+    Height: 950px;
+    Width: 700px;
+    Line-Height: 0px;
+}
+#Table {
+    Height: 950px;
+    Width: 700px;
+    Text-Align: Justify;
+    Color: black;
+    Font-Weight: Bold;
+    Font-Style: Normal;
+    Font-Family: "Segoe UI", Tahoma, Geneva, Verdana, Sans-Serif;
+}
+Th {
+    Text-Align: Center;
+}
+Td {
+    Padding: 2px;
+    Justify-Content: Left;
+}
+Tr {
+    Padding: 30px;
+    Width: 200px;
+    Border-Collapse: Separate;
+    Text-Align: Left;
+}
+#Submit_p1 {
+    Text-Align: Center;
+    Font-Weight: Bolder;
+    Font-Size: Xx-Large;
+    Color: Lawngreen;
+}
+#Submit_p2 {
+    Text-Align: Center;
+    Font-Size: Xx-Large;
+    Font-Weight: Bold;
+    Color: Purple;
+}
+A {
+    Text-Align: Center;
+    Font-Size: Xx-Large;
+    Font-Weight: Bold;
+    Color: Slateblue;
+}
+Input,
+Select {
+    Color: #5a5854;
+    Background-Color: #F2f2f2;
+    Padding: 4px 4px 4px 2px;
+    Border-Radius: 10px;
+    Margin-Bottom: 1px;
+}
+Input:focus {
+    Background-Color: #Ffffff;
+    Border: 2px Solid #B1e1e4;
+    Border-Spacing: 2px 2px 2px 2px;
+}
+Input#Email {
+    Background-Image: Url("Images/User-Logo.Png");
+    Background-Repeat: No-Repeat;
+    Background-Position: 1px;
+    Background-Size: 35px 35px;
+    Padding: 4px;
+    Margin-Bottom: 10px;
+}
+Input#Twitter {
+    Background-Image: Url("");
+}

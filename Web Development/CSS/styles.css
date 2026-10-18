@@ -1,0 +1,23 @@
+
+.image{
+  widht:100px;
+}
+hr{
+
+  border-style: none;
+  border-top-style:dotted;
+  width:30%;
+  background-color: transparent;
+
+  border-color:grey;
+  border-width:5px;
+}
+
+body{
+  background-color:rgba(156, 244, 196, 0.5);
+  color:blue;
+}
+
+.heading{
+  background-color:rgba(0, 256, 298, 0.5);
+}

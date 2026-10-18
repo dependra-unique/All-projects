@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        input{
+            width:600px;
+            height:35px;
+            border-radius:5px;
+            border:2px solid blue;
+            font-size: 20px;
+        }
+        #lg{
+            font-size: 50px;
+            color:brown;
+        }
+        #btn{
+            background-color:green ;
+            color:white;
+            font-size:20px;
+            border-radius:0px 50px;
+        }
+        #btn:hover{
+            background-color: blue;
+        }
+        span{
+            color:red;
+            font-size: 20px;
+        }
+        .bord{
+         padding:2px;
+
+         margin-left:400px;
+         margin-right:400px;
+          border:2px solid black;
+        }
+    </style>
+ </head>
+ <body>
+
+<div class="bord">
+    <h1 align="center" id="lg">LOGIN FORM</h1>
+    <form action="#" autocomplete="off" onsubmit="return validiation()">
+        <table cellspacing="15" align="center">
+            <tr><td><input type="text" id="user" placeholder="User">
+            <br><span id="userr"></span>
+            </td></tr>
+            <tr><td><input type="text" id="pass" placeholder="Password">
+               <br> <span id="passs"></span>
+            </td></tr>
+            <tr><td><input type="text" id="conpass" placeholder="Confirm Password">
+               <br> <span id="conpasss"></span>
+            </td></tr>
+            <tr><td><input type="text" id="email" placeholder="Email">
+                <br><span id="emaill"></span>
+            </td></tr>
+            <tr><td><input type="text" id="mobile" placeholder="Mobile">
+               <br> <span id="mobilee"></span>
+            </td></tr>
+            <tr><td><input type="submit" id="btn" placefolder=""> </td></tr>
+
+        </table>
+
+
+    </form>
+    </div>
+    <script>
+        function validiation(){
+            var user=document.getElementById('user').value;
+            var pass=document.getElementById('pass').value;
+            var conpass=document.getElementById('conpass').value;
+            var email=document.getElementById('email').value;
+            var mobile=document.getElementById('mobile').value;
+            if(user==""){
+                document.getElementById('userr').innerHTML="*Please write user name in the Box*";
+                return false;}
+                if(user.length<3){
+                    document.getElementById('userr').innerHTML="*Please write atleast three character in the Box *";
+                }
+
+                if(!isNaN(user)){
+                    document.getElementById('userr').innerHTML="*Please write alphabets in the box in the Box *";
+                }
+
+            if(pass==""){
+                document.getElementById('passs').innerHTML="*Please write Password in the Box*";
+
+            }
+            if(conpass==""){
+                document.getElementById('conpasss').innerHTML="*Please confirm password in the Box*";
+
+            }
+            if(email==""){
+                document.getElementById('emaill').innerHTML="*Please write Email in the Box*";
+
+            }
+            if(mobile==""){
+                document.getElementById('mobilee').innerHTML="*Please write Phone no in the Box*";
+
+            }
+            if(isNaN(mobile)){
+                document.getElementById('mobilee').innerHTML="*Please dont write alphabets in the Box*";
+            }
+            if(mobile.length<10){
+                document.getElementById('mobilee').innerHTML="*Please write atleast 10 numbers in the Box *";
+            }
+            else{
+                document.getElementById('mobilee').innerHTML="";
+            }
+        }
+    </script>
+ </body>
+ </html>

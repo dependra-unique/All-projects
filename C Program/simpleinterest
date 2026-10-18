@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{    
+    
+    int principal, rate, time, simpleinterest;
+    printf("enter the principal\n",principal);
+    scanf("%d\n", &principal);
+    printf("enter the rate\n", rate);
+    scanf("%d\n", &rate);
+    printf("enter the time\n", time);
+    scanf("%d\n", &time);
+    simpleinterest = ((principal* rate*time)/100;)
+    printf("simpleinterest = %d\n", simpleinterest);
+    return 0;
+}

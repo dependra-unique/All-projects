@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equive="X-UA-Compatible">
+  <meta name="viewport" content="width = device-width, initail-scale=1.0">
+  <title>Labourers Hub Website</title>
+
+  <link rel="stylesheet" href="registration1.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header class="header">
+<!-- <img class="logo" src="logoworkers.png" alt="logo" > -->
+<a href="#" class="logo"<i class="Labourers"></i>Labourers Hub</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#sevices">Services</a>
+        <a href="#contectus">Contact Us</a>
+        <a href="C:\Users\DEPENDRA\OneDrive\Desktop\Project 1\registration1.html">Register</a>
+      </nav>
+
+      <div class="icons">
+          <div class="fas fa-bars" id="menu-btn"></div>
+          <div class="fas fa-search" id="search-btn"></div>
+          <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+          <input type="search" id="search-box" placeholder="search here...">
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+<!-- login form css start -->
+
+        <form class="form-div" action="mailto:dependra2021ito21@abesit.edu.in" method="post" enctype="text/plain">
+            <h2 class="heading-div">Login</h2>
+            <div class="username-div">
+                <h4 class="username-heading">Username</h4>
+                <input class="username" type="input" placeholder="Username" required>
+            </div>
+
+            <div class="password-div">
+                <h4 class="password-heading">Password</h4>
+                <input class="password" type="password" placeholder="Password" required>
+            </div>
+
+            <div class="forget-password-div">
+                <h5 class="forget-password-heading">Forget Password?</h5>
+            </div>
+
+            <div class="btn-div">
+                <input class="submit-btn" type="submit" value="Login">
+            </div>
+
+            <div class="not-member-div">
+                Not a member?
+                <a class="signup" href="#">Signup</a>
+            </div>
+        </form>
+
+    </header>
+
+
+
+           <Div Id="Bg">
+               <Center></Center>
+               <Br />
+               <B
+                   ><U> <H1>LABOURERS HUB REGISTRATION FORM</H1></U>
+               </B>
+               <Div Id="Form">
+                   <Form Method="Get" Action="Submit.Html">
+                       <Table Id="Table">
+                           <Tr>
+                               <Td>FIRST NAME:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Text"
+                                       Name="Username"
+                                       Size="30"
+                                       Maxlength="30"
+                                       Placeholder="Enter First Name"
+                                   />
+                                   (Max 30 Characters A-Z And A-Z)
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>LAST NAME:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Text"
+                                       Name="Username"
+                                       Size="30"
+                                       Maxlength="30"
+                                       Placeholder="Enter Last Name"
+                                   />
+                                   (Max 30 Characters A-Z And A-Z)
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>DATE OF BIRTH:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Number"
+                                       Name="Day"
+                                       Size="2"
+                                       Maxlength="2"
+                                       Placeholder="Day"
+                                       Min="1"
+                                       Max="31"
+                                   />
+                                   <Select Name="Month">
+                                       <Option Value="Month">Month</Option>
+                                       <Option Value="Jan">Jan</Option>
+                                       <Option Value="Feb">Feb</Option>
+                                       <Option Value="Mar">Mar</Option>
+                                       <Option Value="Apr">Apr</Option>
+                                       <Option Value="May">May</Option>
+                                       <Option Value="June">June</Option>
+                                       <Option Value="July">July</Option>
+                                       <Option Value="Aug">Aug</Option>
+                                       <Option Value="Sep">Sep</Option>
+                                       <Option Value="Oct">Oct</Option>
+                                       <Option Value="Nov">Nov</Option>
+                                       <Option Value="Dec">Dec</Option>
+                                   </Select>
+                                   <Input
+                                       Type="Text"
+                                       Name="Year"
+                                       Size="5"
+                                       Maxlength="4"
+                                       Placeholder="Year"
+                                       Min="1991"
+                                       Max="2005"
+                                   />
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>EMAIL ID:</Td>
+                               <Td>
+                                   <Input
+                                       Id="Email"
+                                       Type="Email"
+                                       Name="Email"
+                                       Size="30"
+                                       Maxlength="100"
+                                   />
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>MOBILE NO:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Tel"
+                                       Name="Number"
+                                       Size="30"
+                                       Maxlength="12"
+                                       Placeholder="Enter Mobile No"
+                                   />
+                                   (10 Digits Number)
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>GENDER:</Td>
+                               <Td>
+                                   <Input
+                                       Id="Female"
+                                       Type="Radio"
+                                       Name="Gender"
+                                       Value="F"
+                                   />
+                                   <Label For="Female">Female</Label>
+                                   <Input
+                                       Id="Male"
+                                       Type="Radio"
+                                       Name="Gender"
+                                       Value="M"
+                                   />
+                                   <Label For="Male">Male</Label>
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>ADDRESS:</Td>
+                               <Td>
+                                   <Textarea Rows="4" Cols="40" Id="Comments">
+                                   </Textarea>
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>CITY:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Text"
+                                       Name="City"
+                                       Size="30"
+                                       Maxlength="30"
+                                       Placeholder="Enter Your City Name"
+                                   />
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>PIN CODE:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Text"
+                                       Name="Pin"
+                                       Size="30"
+                                       Maxlength="30"
+                                       Placeholder="Enter Pin Code"
+                                   />
+                                   (6 Digits Number)
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>STATE:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Text"
+                                       Name="State"
+                                       Size="30"
+                                       Maxlength="30"
+                                       Placeholder="Enter Your State Name"
+                                   />
+                               </Td>
+                           </Tr>
+                           <Tr>
+                               <Td>COUNTRY:</Td>
+                               <Td>
+                                   <Input
+                                       Type="Text"
+                                       Name="COUNTRY"
+                                       Size="30"
+                                       Maxlength="30"
+                                       Placeholder="Enter Your City Name"
+                                   />
+                               </Td>
+                           </Tr>
+
+                           <Tr>
+                               <Td>QUALIFICATION</Td>
+                               <Td>
+                                   <Table Width="600px" , Height="100px">
+                                       <Tr>
+                                           <Th>S.N0</Th>
+                                           <Th>Examination</Th>
+                                           <Th>Board</Th>
+                                           <Th>Percentage</Th>
+                                           <Th>Year Of Passing</Th>
+                                       </Tr>
+                                       <Tr>
+                                           <Td>1.</Td>
+                                           <Th>Class X</Th>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="20"
+                                                   Maxlength="20"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                       </Tr>
+                                       <Tr>
+                                           <Td>2.</Td>
+                                           <Th>Class XII</Th>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="20"
+                                                   Maxlength="20"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                       </Tr>
+                                       <Tr>
+                                           <Td>3.</Td>
+                                           <Th>Graduation</Th>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="20"
+                                                   Maxlength="20"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                       </Tr>
+                                       <Tr>
+                                           <Td>4.</Td>
+                                           <Th>Masters</Th>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="20"
+                                                   Maxlength="20"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                           <Td>
+                                               <Input
+                                                   Type="Text"
+                                                   Name="State"
+                                                   Size="15"
+                                                   Maxlength="10"
+                                               />
+                                           </Td>
+                                       </Tr>
+                                       <Tr>
+                                           <Td></Td>
+                                           <Td></Td>
+                                           <Td>(10 Char Max)</Td>
+                                           <Td>(Upto To Decimal)</Td>
+                                           <Td></Td>
+                                       </Tr>
+                                   </Table>
+                               </Td>
+                           </Tr>
+
+                           <Tr>
+                               <Td>
+                                   <Button Type="Submit">Submit</Button>
+                                   <Button Type="Reset">Reset</Button>
+                               </Td>
+                           </Tr>
+                       </Table>
+                   </Form>
+               </Div>
+           </Div>
+       </Body>

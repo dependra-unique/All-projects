@@ -1,0 +1,104 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:  rgba(173, 216, 230, 0.5);
+    height:100vh;
+    
+}
+
+
+.form-div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:350px;
+    background:white;
+    border-radius: 15px;
+}
+
+.heading-div{
+    text-align: center;
+    padding:10px;
+    border-bottom:2px solid silver;
+    
+}
+
+.username-div {
+    padding: 0px 50px;
+
+}
+
+.username-heading {
+    color:rgba(120, 39, 233, 0.6);
+    font-family: sans-serif;
+}
+
+.username {
+    padding-right:80px;
+    border:none;
+    border-bottom:2px solid silver;
+    /* border-top:none;
+    border-left:none;
+    border-right:none; */
+    font-family:sans-serif;
+}
+
+.password-heading {
+    color:rgba(120, 39, 233, 0.6);
+    font-family:sans-serif;
+}
+.password-div {
+    padding: 0px 50px;
+}
+
+.password {
+    padding-right:80px;
+    border:none;
+    border-bottom:2px solid silver;
+    /* border-top:none;
+    border-left:none;
+    border-right:none; */
+    font-family:sans-serif;
+}
+
+.forget-password-div {
+    padding: 0px 50px;
+}
+
+.forget-password-heading {
+    font-family:sans-serif;
+    font-weight: 100;
+}
+
+.btn-div {
+    padding:0px 62px;
+}
+.submit-btn {
+    margin:0px;
+    padding:5px 100px;
+    border-radius: 20px;
+    position: absolute;
+    background:  rgba(13, 33, 208, 0.6);
+    cursor: pointer;
+    
+}
+
+.not-member-div {
+    position:relative;
+    margin: 60px 100px;
+
+}
+
+
+.signup {
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
